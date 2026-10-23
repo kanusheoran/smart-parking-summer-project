@@ -1,16 +1,3 @@
-/*
-    Smart Parking Slot Allocation System
-    -------------------------------------
-    Data Structures Used:
-        1. Array        -> fixed set of parking slots, tracked in real time
-        2. Hashing       -> unordered_map for O(1) vehicle -> slot lookup
-        3. Queue         -> FIFO waitlist when lot is full
-
-    Concepts Demonstrated:
-        - Real-time slot tracking (reduces idle/unallocated slot time)
-        - FIFO waitlist handling using a queue data structure
-        - Utilization report generation for peak-hour analysis
-*/
 
 #include <iostream>
 #include <unordered_map>
